@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Children Books - BookHub</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center fw-bold fs-3" href="../index.html">
+        <i class="bi bi-book-half me-2"></i>BookHub
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+              Categories
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="novels.html">Novels</a></li>
+              <li><a class="dropdown-item active" href="children.html">Children</a></li>
+              <li><a class="dropdown-item" href="biography.html">Biography</a></li>
+              <li><a class="dropdown-item" href="miracle.html">Miracle</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#best-sellers">Best Sellers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html#new-arrivals">New Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
+          </li>
+        </ul>
+        
+        <div class="d-flex">
+          <div class="input-group me-2">
+            <input type="text" class="form-control" placeholder="Search books...">
+            <button class="btn btn-outline-light" type="button">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+          <button class="btn btn-outline-light me-2">
+            <i class="bi bi-person"></i>
+          </button>
+          <button class="btn btn-outline-light position-relative">
+            <i class="bi bi-cart3"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="container-fluid bg-success bg-gradient text-white py-5">
+    <div class="container py-4">
+      <h1 class="display-4 fw-bold">Children Books</h1>
+      <p class="lead mb-0">Spark imagination and foster a love of reading from an early age</p>
+    </div>
+  </div>
+
+  <!-- Age Filter -->
+  <div class="container py-4">
+    <div class="row g-3">
+      <div class="col-md-6">
+        <select class="form-select">
+          <option selected>Filter by Age Group</option>
+          <option value="1">0-3 Years</option>
+          <option value="2">4-6 Years</option>
+          <option value="3">7-9 Years</option>
+          <option value="4">10-12 Years</option>
+        </select>
+      </div>
+      <div class="col-md-6">
+        <select class="form-select">
+          <option selected>Filter by Type</option>
+          <option value="1">Picture Books</option>
+          <option value="2">Chapter Books</option>
+          <option value="3">Educational</option>
+          <option value="4">Activity Books</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <!-- Children Books Grid -->
+  <div class="container py-5">
+    <div class="row g-4">
+      <!-- Book 1 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-warning text-white py-3">
+            <h5 class="card-title mb-0">The Very Hungry Caterpillar</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">A classic picture book that follows the journey of a caterpillar as it eats its way through various foods.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Picture Book</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$12.99</span>
+              <span class="text-muted">Ages 2-5</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 2 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-info text-white py-3">
+            <h5 class="card-title mb-0">Goodnight Moon</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">A comforting bedtime story that has lulled generations of children to sleep.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Bedtime</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$10.99</span>
+              <span class="text-muted">Ages 1-4</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 3 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-primary text-white py-3">
+            <h5 class="card-title mb-0">Where the Wild Things Are</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">Max's imaginary journey to where the wild things are has become a timeless classic.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Adventure</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$14.99</span>
+              <span class="text-muted">Ages 4-8</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 4 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-danger text-white py-3">
+            <h5 class="card-title mb-0">The Cat in the Hat</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">The classic Beginner Book that started the legendary career of Dr. Seuss.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Beginner Reader</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$11.99</span>
+              <span class="text-muted">Ages 3-7</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 5 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-secondary text-white py-3">
+            <h5 class="card-title mb-0">Charlotte's Web</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">The heartwarming tale of friendship between a pig named Wilbur and a spider named Charlotte.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Chapter Book</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$16.99</span>
+              <span class="text-muted">Ages 8-12</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Book 6 -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-0 shadow-sm h-100">
+          <div class="card-header bg-dark text-white py-3">
+            <h5 class="card-title mb-0">Harry Potter Series</h5>
+          </div>
+          <div class="card-body">
+            <p class="card-text">The complete collection of Harry Potter books that have captivated readers worldwide.</p>
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <span class="badge bg-success">Fantasy</span>
+              <div>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-half text-warning"></i>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="fw-bold text-primary">$89.99</span>
+              <span class="text-muted">Ages 9+</span>
+            </div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <button class="btn btn-primary w-100">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Pagination -->
+    <nav class="mt-5">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link" href="#">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <h4 class="fw-bold mb-3"><i class="bi bi-book-half me-2"></i>BookHub</h4>
+          <p>Your premier destination for discovering and purchasing books across all genres.</p>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-white fs-5"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2">
+          <h5 class="fw-bold mb-3">Quick Links</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="../index.html" class="text-white text-decoration-none">Home</a></li>
+            <li class="mb-2"><a href="novels.html" class="text-white text-decoration-none">Novels</a></li>
+            <li class="mb-2"><a href="children.html" class="text-white text-decoration-none">Children</a></li>
+            <li class="mb-2"><a href="biography.html" class="text-white text-decoration-none">Biography</a></li>
+            <li class="mb-2"><a href="miracle.html" class="text-white text-decoration-none">Miracle</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="fw-bold mb-3">Customer Service</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Shipping Info</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">Returns</a></li>
+            <li class="mb-2"><a href="#" class="text-white text-decoration-none">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3">
+          <h5 class="fw-bold mb-3">Contact Info</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2"><i class="bi bi-geo-alt me-2"></i>123 Book Street, Library City</li>
+            <li class="mb-2"><i class="bi bi-telephone me-2"></i>(555) 123-4567</li>
+            <li class="mb-2"><i class="bi bi-envelope me-2"></i>info@bookhub.com</li>
+          </ul>
+        </div>
+      </div>
+      <hr class="my-4">
+      <div class="text-center">
+        <p class="mb-0">© 2025 BookHub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
